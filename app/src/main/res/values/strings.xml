@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">LiveCV</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Murat SAYRIM</string>
+    <string name="nav_header_subtitle">muratsayrim@hotmail.com.tr</string>
+    <string name="nav_header_tel">0507 578 28 41</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Ben kimim?</string>
+    <string name="menu_gallery">Projelerim</string>
+    <string name="menu_slideshow">Uygulama Hakkında</string>
+    <string name="menu_tools">Hobilerim</string>
+    <string name="menu_share">CV\'imi paylaş</string>
+    <string name="menu_send">İletişim</string>
+    <string name="menu_education">Eğitimim</string>
+    //Benim eklediğim Stringler
+    <string name="about">Uygulamanın amacı klasik CV bilgilerini görüntülemenin yanında öğrediklerimi uygularken ortaya çıkan uygulamaları test edebileceğiniz inter aktif bir uygulama.</string>
+
+    //projeler
+    <string name="doviz_proje">Bu projede web servisten kur değerlerini çekip bunları uygun formatlarda arayüze giydirdim.</string>
+</resources>
