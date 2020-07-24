@@ -30,6 +30,8 @@
                 android:inputType="textMultiLine"
                 android:paddingStart="24dp"
                 android:paddingEnd="24dp"
+                android:text="interaktifinteraktifinteraktifinteraktifinteraktifinteraktifinteraktifinteraktifinteraktifinteraktifinteraktifinteraktifinteraktifinteraktifinteraktifinteraktifinteraktifinteraktifinteraktifinteraktifinteraktifinteraktifinteraktifinteraktifinteraktifinteraktifinteraktifinteraktifinteraktifinteraktifinteraktifinteraktifinteraktifinteraktifinteraktifinteraktifinteraktifinteraktifinteraktifinteraktifinteraktifinteraktifinteraktifinteraktifinteraktifinteraktifinteraktifinteraktifinteraktifinteraktifinteraktifinteraktifinteraktifinteraktifinteraktif"
+                android:textAlignment="viewStart"
                 android:textSize="18sp"
                 android:textStyle="bold" />
         </LinearLayout>

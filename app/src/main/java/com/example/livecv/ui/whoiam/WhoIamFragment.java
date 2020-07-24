@@ -8,7 +8,6 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import androidx.annotation.Nullable;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
@@ -24,7 +23,7 @@ public class WhoIamFragment extends Fragment {
                              ViewGroup container, Bundle savedInstanceState) {
         homeViewModel =
                 ViewModelProviders.of ( this ).get ( WhoIamViewModel.class );
-        View root = inflater.inflate ( R.layout.fragment_home, container, false );
+        View root = inflater.inflate ( R.layout.fragment_whoiam, container, false );
         final TextView textView1 = root.findViewById ( R.id.whoIamText );
         final ImageView imageView = root.findViewById ( R.id.cvPic );
         homeViewModel.getText2 ().observe ( getViewLifecycleOwner (), new Observer<String> () {

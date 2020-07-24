@@ -10,7 +10,7 @@ public class AppAboutViewModel extends ViewModel {
 
     public AppAboutViewModel() {
         mText = new MutableLiveData<> ();
-        mText.setValue ("Uygulamanın amacı klasik CV bilgilerini görüntülemenin yanında öğrediklerimi uygularken ortaya çıkan uygulamaları test edebileceğiniz inter aktif bir uygulama." );
+        mText.setValue ("   Uygulamanın amacı klasik CV bilgilerini görüntülemenin yanında öğrediklerimi uygularken ortaya çıkan uygulamaları test edebileceğiniz interaktif bir uygulama." );
     }
 
     public LiveData<String> getText() {

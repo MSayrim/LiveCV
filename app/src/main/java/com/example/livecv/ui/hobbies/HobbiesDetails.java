@@ -29,7 +29,7 @@ public class HobbiesDetails extends AppCompatActivity {
 
         Intent intent = getIntent ();
         Hobbies selectedProject = (Hobbies) intent.getSerializableExtra ( "selected project" );
-        textView.setText ( selectedProject.getHobbieName () );
+        textView.setText ( selectedProject.getHobbieDetail () );
         imageView.setImageResource ( selectedProject.getHobbiePic () );
 
     }

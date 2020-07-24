@@ -32,9 +32,9 @@ public class HobbiesFragment extends Fragment implements HobbiesCustomAdapter.cu
 
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate ( savedInstanceState );
-        Hobbies hobbie1 = new Hobbies ("e-sport","dota 2 / csgo / pubg / hearthstone" , R.drawable.profilpic);
-        Hobbies hobbie2 = new Hobbies ("e-sport","dota 2 / csgo / pubg / hearthstone" , R.drawable.profilpic);
-        Hobbies hobbie3 = new Hobbies ("e-sport","dota 2 / csgo / pubg / hearthstone" , R.drawable.profilpic);
+        Hobbies hobbie1 = new Hobbies ("e-spor","      E-sporlar artık neredeyse alışık olduğumuz spor türleriyle yanyana anılır konuma geldiler. Birçok spor kulübü bünyelerinde bu sporlarda ki iyi oyuncular toplamaya başladı bile. Bir izleyici olarakta başta Dota 2,Hearthstone,Cs:go ve pubg olmak üzere birçok e-spor katagorisinde ki oyun ve oyuncuların kullandığı platform item alışverişi yaptığı sistemler hakkında bilgi sahibiyim. " , R.drawable.esports);
+        Hobbies hobbie2 = new Hobbies ("Cryptocurrency","       Cryptocurrencyler geleceğin kaçınılmaz sonu olarak sürekli gündeme gelmekte. Benim sanal paralarla olan ilişkim üniversite zamanlarında kısmı mining ve ticareti üzerine. Blockchain teknolojisine ayrıcada bir merak sahibiyim yapay zeka ve blockchain üzerine ileride kodlama kısmında çalışma planlarım mevcut." , R.drawable.crypto);
+        Hobbies hobbie3 = new Hobbies ("3 boyutlu baskı","      3D teknolijisine üniversitemin son yıllarında tanıştım. Şahsıma ait ilk yazıcım üniversitemin son yıllarında edindim. 3D teknolojisi ile şuan da ilgilenmekteyim genel olarak baskı hizmeti ve teknik destek veriyorum facebook gruplarında." , R.drawable.dddprint);
         hobbieList = new ArrayList<> (  );
         hobbieList.add ( hobbie1 );
         hobbieList.add ( hobbie2 );

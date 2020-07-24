@@ -9,13 +9,13 @@
         android:id="@+id/nav_home"
         android:name="com.example.livecv.ui.whoiam.WhoIamFragment"
         android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_whoiam" />
 
     <fragment
         android:id="@+id/nav_edu"
         android:name="com.example.livecv.ui.education.EducationFragment"
-        android:label="@string/menu_send"
-        tools:layout="@layout/fragment_send" />
+        android:label="@string/menu_education"
+        tools:layout="@layout/fragment_education" />
 
     <fragment
         android:id="@+id/nav_gallery"
@@ -27,7 +27,7 @@
         android:id="@+id/nav_slideshow"
         android:name="com.example.livecv.ui.appabout.AppAboutFragment"
         android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_aboutapp" />
 
     <fragment
         android:id="@+id/nav_tools"
